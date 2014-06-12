@@ -29,7 +29,9 @@ Has been determined to be a Permissions Issue with the underlying Java. To recti
     /Java/Support/CoreDeploy.bundle
 
 
-
+IF YOU UPGRADED TO MAVERICKS:
+The Mavericks upgrade removes the previous existing JDK install (deletes a bunch of stuff, including the cacerts file!)
+It is Recommended that you upgrade your JRE and JDK to Java 7.
 
 WHAT IS A SELF SIGNED CERTIFICATE?
     
