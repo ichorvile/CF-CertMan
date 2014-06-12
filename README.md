@@ -14,13 +14,22 @@ Two versions are available here - CF7 8 and 9 and one for CF10 - but try both if
 Technical version:- Calls to getCommonDN() to get the certificate name are deprecated in later verions of Java and I needed to move them to getX500Principal() and process the list string I got from that instead.  Other tweaks are just textual - everything else seems to work fine.
 
 
-**PLEASE NOTE** ::
-There have been reports brought to my attention about the Following Error:
-    
+**MACOSX USERS** ::
+Previous to Mavericks, the Following Error:    
+
     Variable KEYCLASHALIAS is undefined.
     on Line 40 of AddCert.cfm
+    
+Has been determined to be a Permissions Issue with the underlying Java. To rectify this error:
 
-I have tested for this, and appears to only Occurr on Self-Signed Certificates. A Fix is currently in the Works.
+    To fix this, add your user account with read/write access to the following file:                 
+    /Java/Support/CoreDeploy.bundle/Contents/Home/lib/security/cacerts
+
+    To get to that file, you may have to change your folder options in windows Explorer to viee the contents of the "file"     
+    /Java/Support/CoreDeploy.bundle
+
+
+
 
 WHAT IS A SELF SIGNED CERTIFICATE?
     
