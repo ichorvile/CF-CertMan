@@ -1,4 +1,4 @@
-![alt tag](http://webdevsourcerer.com/public/_clientFiles/projects/CertMan-2014.png =100x100)
+![alt tag](http://webdevsourcerer.com/public/_clientFiles/projects/CertMan-2014.png = 100)
 CF-CertMan
 ==========
 
