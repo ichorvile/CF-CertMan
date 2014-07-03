@@ -1,4 +1,4 @@
-<img src="http://webdevsourcerer.com/public/_clientFiles/projects/CertMan-2014.png" alt="Drawing" style="width: 150px; height=150px;"/>
+<img src="http://webdevsourcerer.com/public/_clientFiles/projects/CertMan-2014.png" alt="Drawing" width="150" height="150"/>
 CF-CertMan
 ==========
 
